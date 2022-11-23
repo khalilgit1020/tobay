@@ -110,6 +110,7 @@ class _WebViewContainerState extends State<WebViewContainer>
               onPageFinished: doneLoading,
               onPageStarted: startLoading,
             ),
+
             Center(
               child: Container(
                 margin: EdgeInsets.all(5.0),
